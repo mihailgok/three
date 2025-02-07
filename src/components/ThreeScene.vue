@@ -11,7 +11,7 @@
   <script setup lang="ts">
   import { onMounted, ref, watch } from 'vue';
   import * as THREE from 'three';
-  import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+  import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
   
   const container = ref<HTMLDivElement | null>(null);
   const doorWidth = ref(2);
